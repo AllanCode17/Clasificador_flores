@@ -5,9 +5,9 @@ from PIL import Image
 import tensorflow as tf
 
 st.set_page_config(page_title="Clasificador de Flores", layout="centered")
-st.title("🌼 Clasificador de Flores 🌷")
+st.title("Clasificador de Flores")
 st.markdown("Sube una imagen para determinar si es **margarita, diente de león, rosa, girasol o tulipán**.")
-st.markdown("Desarrollado por **Erik Guillen Reyes** — *IS-701 Inteligencia Artificial*")
+st.markdown("Desarrollado por **Allan Manuel Orellana -20211920128** — *IS-701 Inteligencia Artificial*")
 
 
 @st.cache_resource
